@@ -2,7 +2,7 @@ package com.example.notas.database.model;
 
 public class Note {
     public static final String TABLE_NAME = "notes";
-//gj
+//gj56
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_NOTE = "note";
     public static final String COLUMN_TIMESTAMP = "timestamp";
@@ -10,6 +10,7 @@ public class Note {
     private int id;
     private String note;
     private String timestamp;
+
 
     public static final String CREATE_TABLE =
             "CREATE TABLE " + TABLE_NAME + "("
