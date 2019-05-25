@@ -19,7 +19,7 @@
         android:includeFontPadding="false"
         android:textColor="@color/colorAccent"
         android:lineSpacingExtra="0dp"
-        android:textSize="@dimen/dot_text_size" />
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/timestamp"
