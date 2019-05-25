@@ -2,7 +2,7 @@ package com.example.notas.database.model;
 
 public class Note {
     public static final String TABLE_NAME = "notes";
-//
+//gj
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_NOTE = "note";
     public static final String COLUMN_TIMESTAMP = "timestamp";
@@ -11,8 +11,6 @@ public class Note {
     private String note;
     private String timestamp;
 
-
-    // Create table SQL query
     public static final String CREATE_TABLE =
             "CREATE TABLE " + TABLE_NAME + "("
                     + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
